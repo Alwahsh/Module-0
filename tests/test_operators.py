@@ -104,7 +104,7 @@ def test_sigmoid(a: float) -> None:
     * It is always between 0.0 and 1.0.
     * one minus sigmoid is the same as sigmoid of the negative
     * It crosses 0 at 0.5
-    * It is  strictly increasing.
+    * It is strictly increasing when |a| <= 10.
     """
     # TODO: Implement for Task 0.2.
     raise NotImplementedError("Need to implement for Task 0.2")
